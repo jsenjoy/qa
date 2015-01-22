@@ -1,0 +1,36 @@
+{
+  "name": "qa",
+  "version": "0.0.1",
+  "description": "Yet an other collection of interactive command line user interfaces base on generator.",
+  "main": "/lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsenjoy/qa"
+  },
+  "keywords": [
+    "question",
+    "command",
+    "answer",
+    "interation",
+    "Inquirer"
+  ],
+  "author": "Boom Lee <boom11235.gg@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.11.13"
+  },
+  "bugs": {
+    "url": "https://github.com/jsenjoy/qa/issues"
+  },
+  "homepage": "https://github.com/jsenjoy/qa",
+  "dependencies": {
+    "co": "^4.1.0",
+    "thunkify": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}

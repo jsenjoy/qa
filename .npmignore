@@ -1,0 +1,6 @@
+/test/
+/examples/
+.editorconfig
+.travis.yml
+.gitignore
+.jshintrc
