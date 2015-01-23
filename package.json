@@ -27,8 +27,7 @@
   },
   "homepage": "https://github.com/jsenjoy/qa",
   "dependencies": {
-    "co": "^4.1.0",
-    "thunkify": "^2.1.2"
+    "co": "^4.1.0"
   },
   "devDependencies": {
     "mocha": "^2.1.0"
