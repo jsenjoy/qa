@@ -2,7 +2,7 @@
   "name": "qa",
   "version": "0.0.1",
   "description": "Yet an other collection of interactive command line user interfaces base on generator.",
-  "main": "/lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
@@ -27,7 +27,9 @@
   },
   "homepage": "https://github.com/jsenjoy/qa",
   "dependencies": {
-    "co": "^4.1.0"
+    "co": "^4.1.0",
+    "lodash": "^2.4.1",
+    "ttys": "0.0.3"
   },
   "devDependencies": {
     "mocha": "^2.1.0"
