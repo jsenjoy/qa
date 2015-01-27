@@ -67,7 +67,7 @@ Run an interative command line program using a generator. The generator will be 
 #### Answers
 
 ```js
-  qa(gen).then(function (answers) { ... })
+  qa(generator).then(function (answers) { ... })
 ```
 
 Run `qa` will return promise which can get a key/value hash containing the client answers.
