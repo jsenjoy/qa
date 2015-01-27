@@ -57,7 +57,7 @@ Run an interative command line program using a generator. The generator will be 
   - **type**: (String) Type of prompt, default: input - Possible values: confirm, list, rawlist, password.
   - **name**: (String) Answer's key in answers hash.
   - **message**: (String) The question to print.
-  - **default**: (String|Number|Array) Default value(s) to use if nothing is entered.
+  - **default**: (String|Number) Default value(s) to use if nothing is entered.
   - **choices**: (Array) Choices array.
   - **validate**: (Function) Receive the user input and should return true if the value is valid, or return error message to print.
   - **filter**: (Function) Receive the user input and return the filtered value to be used inside the program.
