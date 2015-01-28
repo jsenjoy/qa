@@ -28,6 +28,7 @@
   "homepage": "https://github.com/jsenjoy/qa",
   "dependencies": {
     "chalk": "^0.5.1",
+    "cli-width": "^1.0.1",
     "co": "^4.1.0",
     "lodash": "^2.4.1",
     "ttys": "0.0.3"
