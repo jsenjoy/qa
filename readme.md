@@ -54,10 +54,10 @@ Run an interative command line program using a generator. The generator will be 
   It will prompt a question and using `yield` to take answer.
   Accept an argument (Object) to control prompt, options: (retain question object in `Inquirer.js`, it's wonderful practice.)
   
-  - **type**: (String) Type of prompt, default: input - Possible values: confirm, list, rawlist, password.
-  - **name**: (String) Answer's key in answers hash.
-  - **message**: (String) The question to print.
-  - **default**: (String|Number) Default value(s) to use if nothing is entered.
+  - **type**: (string) Type of prompt, default: input - Possible values: confirm, list, rawlist, password.
+  - **name**: (string) Answer's key in answers hash.
+  - **message**: (string) The question to print.
+  - **default**: (string|number|boolean) Default value(s) to use if nothing is entered.
   - **choices**: (Array) Choices array.
   - **validate**: (Function) Receive the user input and should return true if the value is valid, or return error message to print.
   - **filter**: (Function) Receive the user input and return the filtered value to be used inside the program.
@@ -73,4 +73,4 @@ Run an interative command line program using a generator. The generator will be 
 Run `qa` will return promise which can get a key/value hash containing the client answers.
 
 - **Key** The `name` property of the question object.
-- **Value** The answer for specified question, can be `Boolean`(confirm), `String`(input, rawlist, list).
+- **Value** The answer for specified question, can be `boolean`(confirm), `string`(input, rawlist, list) and so on.
