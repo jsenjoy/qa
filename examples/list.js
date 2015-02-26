@@ -1,9 +1,9 @@
 var qa = require('../')
 
 qa(function *(ask) {
-  var content = yield ask({
+  return yield ask({
     type: 'list',
-    name: 'name',
+    name: 'pm',
     message: 'Which package manager do you need',
     choises: [
       'spm',
@@ -19,6 +19,6 @@ qa(function *(ask) {
     },
     default: 'spm'
   })
-  
-  console.log(content)
+}).then(function (answers) {
+  console.log(answers)
 })
