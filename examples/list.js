@@ -10,6 +10,13 @@ qa(function *(ask) {
       'npm',
       'bower'
     ],
+    validate: function (answer) {
+      if (answer !== 'npm') {
+        return 'Must be `npm`'
+      } else {
+        return true
+      }
+    },
     default: 'spm'
   })
   
